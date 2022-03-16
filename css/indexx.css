@@ -179,11 +179,11 @@ h1,h2,h3,h4,h5,h6{
     padding: 2rem;
     position: relative;
 }
-.showcase:before{
+.showcase:before,.showcaseimage{
     content: '';
     position: absolute;
 
-    background: url('../images/showcase_image.jpg') no-repeat center center/cover;
+    /* background-image: url('../images/showcase_image.jpg"') no-repeat center center/cover; */
     top: 0px;
     left: 0px;
     width: 100%;

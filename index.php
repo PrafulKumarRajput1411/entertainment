@@ -10,12 +10,24 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Open+Sans:wght@300&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
-    <link rel="stylesheet" href="../css/indexx.css">
+    
+     
     <link rel="stylesheet" href="./media/media.css">
     <title>News Grid</title>
+    <style>
+         .showcase:before{
+        background-image:url('<?php echo "images/showcase-image.jpg" ?>');
+    }
+        <?php
+        include 'css/indexx.css';
+        include 'media/media.css';
+    ?>
+   
+    </style>
 </head>
 
 <body> 
+
     <nav class="main-nav">
         <div class="container">
             <div class="logo">
@@ -31,13 +43,13 @@
             <div class="nav-item">
                 <ul>
                     <li>
-                        <a href="index.html" class="current">Home</a>
+                        <a href="index.php" class="current">Home</a>
                     </li>
                     <li>
-                        <a href="about.html" class="unactive">About</a>
+                        <a href="about.php" class="unactive">About</a>
                     </li>
                     <li>
-                        <a href="typing.html" class="unactive">Typing</a>
+                        <a href="typing.php" class="unactive">Typing</a>
                     </li>
                 </ul>
             </div>
@@ -46,6 +58,8 @@
 
     <!-- showcase -->
     <header class="showcase">
+        
+        <?php echo "<img class='showcaseimage' src='images/showcase_image.jpg' alt=''>"?>
         <div class="container">
             <div class="showcase-container">
                 <div class="showcase-content">
@@ -68,7 +82,7 @@
             <h2>Editors Picks</h2>
             <div class="articles-container">
                 <article class="card">
-                    <img src="../images/entertainment.jpg" alt="">
+                    <?php echo '<img src="images/entertainment.jpg" alt="">' ?>
                     <div>
                         <div class="category category-ent">Entertainment</div>
                         <h3>
@@ -92,8 +106,7 @@
 
                 </article>
                 <article class="card">
-                    <img src="../images/technology.jpg" alt="">
-
+                    <?php echo '<img src="images/technology.jpg" alt="">' ?>
                     <div class="category category-tech">Technology</div>
                     <h3>
                         <a href="article.htmo">Lorem ipsum dolor sit amet.</a>
@@ -104,7 +117,7 @@
 
                 </article>
                 <article class="card">
-                    <img src="../images/technology.jpg" alt="">
+                <?php echo '<img src="images/technology.jpg" alt=""> ' ?>
 
                     <div class="category category-sports">Sports</div>
                     <h3>
@@ -116,7 +129,7 @@
 
                 </article>
                 <article class="card">
-                    <img src="../images/technology.jpg" alt="">
+                    <?php echo '<img src="images/technology.jpg" alt="">' ?>
 
                     <div class="category category-tech">Technology</div>
                     <h3>
@@ -149,7 +162,7 @@
                             obcaecati laudantium dolore vero maiores a molestiae reiciendis.</p>
 
                     </div>
-                    <img src="../images/entertainment.jpg" alt="">
+                     <?php echo '<img src="images/entertainment.jpg" alt="">' ?>
                 </article>
             </div>
         </div>
@@ -175,7 +188,7 @@
                     <form action="#">
                         <input type="text" placeholder="enter your mail">
                     </form>
-                    <a href="loginform.html" class="btn">Create Your Account</a>
+                    <a href="loginform.php" class="btn">Create Your Account</a>
                 </div>
 
 
@@ -217,7 +230,7 @@
                     <h1>Lorem, ipsum dolor.
                     </h1>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
-                    <a href="loginform.html">Join Now</a>
+                    <a href="loginform.php">Join Now</a>
                 </div>
 
 

@@ -14,6 +14,14 @@
     <link rel="stylesheet" href="./css/about.css">
     <link rel="stylesheet" href="./media/about_media.css">
     <title>Document</title>
+    <style>
+        <?php
+            include 'css/indexx.css';
+            include 'media/media.css';
+            include 'css/about.css';
+            include 'media/about_media.css';
+        ?>
+    </style>
 </head>
 <body>
     <nav class="main-nav">
@@ -54,7 +62,7 @@
                 <h1>Lorem, ipsum dolor.</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem eius deserunt porro et autem atque quam commodi pariatur accusantium distinctio.
                 </p>
-                <a class="article-btn" href="loginform.html">Join Now</a>    
+                <a class="article-btn" href="loginform.php">Join Now</a>    
             </div>
         </div>
     </section>

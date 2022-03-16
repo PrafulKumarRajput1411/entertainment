@@ -10,6 +10,14 @@
     <link rel="stylesheet" href="./css/about.css">
     <link rel="stylesheet" href="./media/typing_media.css">
     <title>Document</title>
+    <style>
+        <?php
+            include 'css/indexx.css';
+            include 'css/typing.css';
+            include 'css/about.css';
+            include 'media/typing_media.css';
+        ?>
+    </style>
 </head>
 
 <body>

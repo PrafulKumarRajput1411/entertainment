@@ -10,6 +10,11 @@
         <link rel="stylesheet" href="./media/media.css"> -->
 
     <title>Sign Up Form</title>
+    <style>
+        <?php
+            include 'css/form_submit.css';
+        ?>
+    </style>
 
 </head>
 
